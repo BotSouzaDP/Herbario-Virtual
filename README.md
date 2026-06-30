@@ -89,5 +89,5 @@ Contribuições são muito bem-vindas! Se você tem sugestões de melhorias de c
 Para dúvidas ou suporte acadêmico sobre a implementação:
 
 * **Danilo de Paula Souza** - danilo.souza@estudante.ifgoiano.edu.br
-* Instituto Federal Goiano, Câmpus Urutaí / Herbário UR.
+* Instituto Federal Goiano Câmpus - Urutaí | Herbário UR.
 
