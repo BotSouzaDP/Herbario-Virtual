@@ -73,7 +73,7 @@ Login padrão para teste: insira as credenciais de teste configuradas no seu ban
 ##  Importação de Dados em Lote (Planilha CSV)
 Sabemos que digitar exsicata por exsicata é inviável para herbários que já possuem dados tabelados. O sistema suporta importação em massa:
 
-1. Na pasta do projeto, localize o arquivo **`BasePadrao.xlsx - modelo_planilha.csv`**.
+1. Na pasta do projeto, localize o arquivo **`base_jabot.csv`**.
 2. Preencha este arquivo com os dados do seu acervo respeitando as colunas (Família, Gênero, Espécie, Coletor, etc.).
 3. Salve o arquivo no formato **CSV (Separado por vírgulas)**.
 4. Na Área Restrita do sistema, utilize a função de importação para carregar todos os seus registros de uma só vez.
