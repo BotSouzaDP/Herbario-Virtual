@@ -63,7 +63,7 @@ $dbHost = 'localhost';
 $dbUsername = 'root'; // Usuário padrão do XAMPP
 $dbPassword = '';     // Senha padrão do XAMPP é vazia
 $dbName = 'acervo_herbario';
-
+```
 ### **Passo 5: Acessando o Sistema**
 1. Com o XAMPP rodando, abra o navegador e digite: http://localhost/herbario-virtual
 2. Você verá a página inicial (Área Pública).
