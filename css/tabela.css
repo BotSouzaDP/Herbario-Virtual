@@ -1,0 +1,75 @@
+body {
+    background-color: #0e4315;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabela {
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 5px; /* Diminuindo espaço interno */
+    font-size: 0.9em; /* Diminuindo tamanho da fonte */
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap; /* Evita que quebre linha em células menores */
+}
+
+th {
+    background-color: #127223;
+    color: #F2EBE9;
+    font-weight: bold;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+}
+
+td {
+    background-color: #F2EBE9;
+    color: #0e4315;
+}
+
+/* Reduzindo a altura das linhas */
+tr {
+    height: 50px;
+}
+
+/* Efeito zebra */
+tr:nth-child(even) td {
+    background-color: #e1dcd9;
+}
+
+/* Efeito hover */
+tr:hover td {
+    background-color: #c5c0be;
+    transition: 0.3s;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    th, td {
+        padding: 4px;
+        font-size: 0.7em; /* Diminuindo ainda mais em telas menores */
+    }
+    tr {
+        height: 50px;
+    }
+}

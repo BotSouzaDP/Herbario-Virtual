@@ -1,0 +1,257 @@
+/* Reset básico para garantir consistência */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    margin: 0;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+}
+.divisa {
+    background: #f6fff7;
+    font-size: 17px;
+    font-weight: bold;
+    color: #127223;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.divisatext {
+    margin-left: 14%;
+}
+
+/* Container do formulário */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Sistema de grid baseado no Bootstrap */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-4, .col-md-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-md-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
+
+/* Estilo dos campos do formulário */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Ajuste para selects */
+select.form-control {
+    appearance: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23000000' d='M2 0L0 2h4zM2 5l2-2H0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 8px 10px;
+    padding-right: 2rem;
+}
+
+/* Botões do formulário */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #127223;
+}
+
+.btn-primary:hover {
+    background-color:#084d15;
+    border-color: #084d15;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Layout flexível */
+.d-flex {
+    display: flex;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+/* Ajuste da margem superior para o formulário */
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .col-md-4, .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Estilos gerais da tabela */
+#resultados table {
+    width: 100%;
+    border-collapse: collapse; /* Para eliminar espaços entre as células */
+    margin-top: 20px; /* Espaço acima da tabela */
+}
+
+#resultados th, #resultados td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borda clara */
+}
+
+/* Estilo do cabeçalho */
+#resultados th {
+    background-color: #f6fff7; /* Cor de fundo semelhante à divisa */
+    color: #127223; /* Cor de texto do cabeçalho */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilo das linhas alternadas */
+#resultados tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo para as linhas pares */
+}
+
+#resultados tr:hover {
+    background-color: #f1f1f1; /* Efeito de hover nas linhas */
+}
+
+/* Estilo das células */
+#resultados td {
+    color: #333;
+}
+
+/* Estilo para os botões de controle da tabela (se houver) */
+#resultados .btn {
+    background-color: #127223; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resultados .btn:hover {
+    background-color: #084d15; /* Cor ao passar o mouse sobre o botão */
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+    #resultados table {
+        font-size: 0.875rem; /* Menor tamanho de fonte para melhorar leitura */
+    }
+
+    #resultados th, #resultados td {
+        padding: 6px 8px; /* Menos espaçamento nas células em telas pequenas */
+    }
+}
+ 
+.exportar{
+    color: #fff;
+    background-color: #127223;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.exportar:hover {
+    background-color: #084d15;
+    border-color: #084d15;
+}
+
