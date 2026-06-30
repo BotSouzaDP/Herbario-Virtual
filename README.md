@@ -3,19 +3,19 @@
 ![Status](https://img.shields.io/badge/Status-Ativo-success)
 ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-blue) 
 
-## 📖 Sobre o Projeto
-Este projeto consiste em um sistema de banco de dados relacional e uma interface web de baixo custo voltados para a informatização de coleções botânicas de pequeno porte (como o Herbário UR). Desenvolvido como uma alternativa acessível e de código aberto, o sistema permite o gerenciamento eficiente de exsicatas, controle de usuários e armazenamento de imagens.
+##  Sobre o Projeto
+Este projeto consiste em um sistema de banco de dados e uma interface web de baixo custo voltados para a informatização de coleções botânicas de pequeno porte (como o Herbário UR). Desenvolvido como uma alternativa acessível e de código aberto, o sistema permite o gerenciamento eficiente de exsicatas, controle de usuários e armazenamento de imagens.
 
 O objetivo principal é democratizar a digitalização de acervos botânicos, dispensando a necessidade de servidores caros ou equipes robustas de TI, tornando a replicação viável para instituições com recursos limitados.
 
-### 🔍 Estrutura do Sistema
+###  Estrutura do Sistema
 O sistema possui duas áreas principais:
 1. **Área Pública:** Permite que visitantes e pesquisadores externos pesquisem dados do acervo, visualizem o *photobook* e acessem chaves interativas de identificação.
 2. **Área Restrita:** Protegida por login, permite que os curadores e membros do herbário realizem operações de inserção (manual ou em lote via planilhas CSV), edição, exclusão e consulta avançada de registros botânicos.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 * **Front-end:** HTML5, CSS3, JavaScript.
 * **Back-end:** PHP (processamento de dados e regras de negócio).
 * **Banco de Dados:** MySQL / MariaDB (gerenciado via phpMyAdmin).
@@ -23,7 +23,7 @@ O sistema possui duas áreas principais:
 
 ---
 
-## ⚙️ Pré-requisitos
+##  Pré-requisitos
 Para replicar e rodar este sistema localmente (no seu computador) ou em um servidor institucional, você precisará apenas de:
 
 1. **XAMPP:** Um pacote de software livre que inclui o servidor Apache e o banco de dados MariaDB/MySQL. [Faça o download do XAMPP aqui](https://www.apachefriends.org/pt_br/index.html).
@@ -32,7 +32,7 @@ Para replicar e rodar este sistema localmente (no seu computador) ou em um servi
 
 ---
 
-## 🚀 Como Instalar e Rodar o Sistema
+##  Como Instalar e Rodar o Sistema
 
 Siga o passo a passo abaixo para configurar o seu Herbário Virtual em poucos minutos:
 
@@ -70,7 +70,7 @@ $dbName = 'acervo_herbario';
 3. Para acessar a Área Restrita, vá até a página de Login.
 Login padrão para teste: insira as credenciais de teste configuradas no seu banco de dados.
 
-## 📊 Importação de Dados em Lote (Planilha CSV)
+##  Importação de Dados em Lote (Planilha CSV)
 Sabemos que digitar exsicata por exsicata é inviável para herbários que já possuem dados tabelados. O sistema suporta importação em massa:
 
 1. Na pasta do projeto, localize o arquivo **`BasePadrao.xlsx - modelo_planilha.csv`**.
@@ -78,14 +78,14 @@ Sabemos que digitar exsicata por exsicata é inviável para herbários que já p
 3. Salve o arquivo no formato **CSV (Separado por vírgulas)**.
 4. Na Área Restrita do sistema, utilize a função de importação para carregar todos os seus registros de uma só vez.
 
-## 📚 Como Citar este Projeto
+##  Como Citar este Projeto
 
 > Aguardando atualizações 
 
-## 🤝 Contribuições
+##  Contribuições
 Contribuições são muito bem-vindas! Se você tem sugestões de melhorias de código, novas funcionalidades ou correção de bugs.
 
-## ✉️ Contato
+##  Contato
 Para dúvidas ou suporte acadêmico sobre a implementação:
 
 * **Danilo de Paula Souza** - danilo.souza@estudante.ifgoiano.edu.br
