@@ -1,7 +1,9 @@
 # Herbário Virtual - Ferramenta de Baixo Custo para Informatização de Acervos 🌱
 
 ![Status](https://img.shields.io/badge/Status-Ativo-success)
-![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-blue) ## 📖 Sobre o Projeto
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-blue) 
+
+## 📖 Sobre o Projeto
 Este projeto consiste em um sistema de banco de dados relacional e uma interface web de baixo custo voltados para a informatização de coleções botânicas de pequeno porte (como o Herbário UR). Desenvolvido como uma alternativa acessível e de código aberto, o sistema permite o gerenciamento eficiente de exsicatas, controle de usuários e armazenamento de imagens.
 
 O objetivo principal é democratizar a digitalização de acervos botânicos, dispensando a necessidade de servidores caros ou equipes robustas de TI, tornando a replicação viável para instituições com recursos limitados.
