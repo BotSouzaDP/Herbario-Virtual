@@ -8,6 +8,14 @@ Este projeto consiste em um sistema de banco de dados e uma interface web de bai
 
 O objetivo principal é democratizar a digitalização de acervos botânicos, dispensando a necessidade de servidores caros ou equipes robustas de TI, tornando a replicação viável para instituições com recursos limitados.
 
+###  View
+Para visualizar o sistema em pleno funcionamento, preparamos uma galeria de imagens que demonstra as principais áreas e fluxos de trabalho. Você pode conferir os prints detalhados acessando a pasta:
+
+> **[Clique aqui para ver a pasta /Visualizar](https://github.com/BotSouzaDP/Herbario-Virtual/tree/main/Visualizar)**
+
+Nesta pasta, você encontrará registros visuais da Área Pública e da Área Restrita, permitindo uma melhor compreensão da interface e das funcionalidades antes mesmo da instalação.
+
+
 ###  Estrutura do Sistema
 O sistema possui duas áreas principais:
 1. **Área Pública:** Permite que visitantes e pesquisadores externos pesquisem dados do acervo, visualizem o *photobook* e acessem chaves interativas de identificação.
